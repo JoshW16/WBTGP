@@ -6,139 +6,26 @@
 	<dict>
 		<key>GlobalProtect</key>
 		<dict>
-			<key>DEM</key>
+			<key>Settings</key>
 			<dict>
-				<key>fedramp-status</key>
-				<string>not_enabled</string>
-				<key>gateway-address</key>
-				<string>gateway=us-southeast-g-wycliffe.gpoojcy5goyj.gw.gpcloudservice.com,ipv4=134.238.172.101,ipv6=</string>
-				<key>gateway-location</key>
-				<string>US Southeast</string>
-				<key>pa-env</key>
-				<string>prod6</string>
-				<key>source-region</key>
-				<string>US</string>
-				<key>tunnel-ip</key>
-				<string>ipv4=10.100.109.46,ipv6=</string>
-				<key>tunnel-status</key>
-				<string>disconnected</string>
-				<key>user-id</key>
-				<string>cXLSMHF9m2VG44o0lchdSZCHHbtnZSnZWcP9aTuaNoayLrnsiIIEOZ2NQ+evNscD
-r4uN1Nyy7CFty6HFI/IcTqo9h+QzU8aDibcAMMSnrHFEZ4WemUr2/TiL4GU1sirK
-/TKQoz7XeCfJEgSEmnlhOoD0ybZWMLYf9OYkztPc5q8=
-</string>
-				<key>user-selection</key>
-				<string>enable</string>
+				<key>connect-method</key>
+				<string>on-demand</string>
 			</dict>
 			<key>PanGPS</key>
 			<dict>
-				<key>PanPortalCfg_6eb1d98316967117c3e1e47a358e9b.dat</key>
-				<data>
-				O/htxiKEVESdBCuwFquntByZuuE=
-				</data>
-				<key>PreferredIPV6_12bd5fa24c354c2c44461cfccc3458b</key>
-				<string></string>
-				<key>PreferredIP_12bd5fa24c354c2c44461cfccc3458b</key>
-				<string>10.100.109.46</string>
-				<key>UserProfileType</key>
-				<integer>0</integer>
-				<key>dem-on-off-status</key>
-				<string>dem-portal-admin-enabled</string>
-				<key>disable-globalprotect</key>
-				<integer>0</integer>
 				<key>mac-addr</key>
-				<data>
-				IqR/E0aC
-				</data>
-			</dict>
-			<key>PanNExt</key>
-			<dict>
-				<key>ne-traffic-enforce-config</key>
-				<integer>0</integer>
+				<data>hbKyi4jk</data>
 			</dict>
 			<key>PanSetup</key>
 			<dict>
 				<key>CurrentVersion</key>
 				<string>6.2.4-652</string>
-				<key>InstallHistory</key>
-				<string>Fresh Install</string>
 				<key>Portal</key>
 				<string>wycliffe.gpcloudservice.com</string>
-				<key>Prelogon</key>
-				<string>0</string>
+				<key>InstallHistory</key>
+				<string>Fresh Install</string>
 				<key>PreviousVersion</key>
 				<string></string>
-			</dict>
-			<key>Settings</key>
-			<dict>
-				<key>allow-extend-session</key>
-				<string>no</string>
-				<key>allow-traffic-blocking-notification-dismissal</key>
-				<string>yes</string>
-				<key>captive-portal-detection-msg</key>
-				<string>&lt;div style="font-family:'Helvetica Neue';"&gt;&lt;h1 style="color:red;text-align:center; margin: 0; font-size: 30px;"&gt;Captive Portal Detected&lt;/h1&gt;&lt;p style="margin: 0; font-size: 15px; line-height: 1.2em;"&gt;GlobalProtect has temporarily permitted network access for you to connect to the Internet. Follow instructions from your internet provider.&lt;/p&gt;&lt;p style="margin: 0; font-size: 15px; line-height: 1.2em;"&gt;If you let the connection time out, open GlobalProtect and click Connect to try again.&lt;/p&gt;&lt;/div&gt;</string>
-				<key>captive-portal-exception-timeout</key>
-				<string>0</string>
-				<key>captive-portal-login-url</key>
-				<string></string>
-				<key>captive-portal-notification-delay</key>
-				<string>5</string>
-				<key>certificate-store-lookup</key>
-				<string>user-and-machine</string>
-				<key>change-password-message</key>
-				<string></string>
-				<key>connect-timeout</key>
-				<integer>5</integer>
-				<key>dem-agent</key>
-				<string>install-with-admin-control</string>
-				<key>disable-globalprotect</key>
-				<integer>0</integer>
-				<key>display-captive-portal-detection-msg</key>
-				<string>no</string>
-				<key>display-traffic-blocking-notification-msg</key>
-				<string>yes</string>
-				<key>enable-hip-remediation</key>
-				<integer>0</integer>
-				<key>enforce-globalprotect</key>
-				<string>no</string>
-				<key>enforcer-exception-application</key>
-				<string></string>
-				<key>enforcer-exception-list</key>
-				<string></string>
-				<key>enforcer-exception-list-domain</key>
-				<string></string>
-				<key>ext-key-usage-oid-for-client-cert</key>
-				<string></string>
-				<key>ipv6-preferred</key>
-				<string>yes</string>
-				<key>krb-auth-fail-fallback</key>
-				<string>no</string>
-				<key>logout-remove-sso</key>
-				<string>no</string>
-				<key>on-demand</key>
-				<string>yes</string>
-				<key>override-cc-username</key>
-				<string>no</string>
-				<key>portal-timeout</key>
-				<integer>5</integer>
-				<key>receive-timeout</key>
-				<integer>30</integer>
-				<key>regioncode</key>
-				<string>US</string>
-				<key>retain-connection-smartcard-removal</key>
-				<string>yes</string>
-				<key>split-tunnel-option</key>
-				<string>network-traffic</string>
-				<key>traffic-blocking-notification-delay</key>
-				<string>15</string>
-				<key>traffic-blocking-notification-msg</key>
-				<string>&lt;div style="font-family:'Helvetica Neue';"&gt;&lt;h1 style="color:red;text-align:center; margin: 0; font-size: 30px;"&gt;Notice&lt;/h1&gt;&lt;p style="margin: 0;font-size: 15px; line-height: 1.2em;"&gt;To access the network, you must first connect to GlobalProtect.&lt;/p&gt;&lt;/div&gt;</string>
-				<key>traffic-enforcement</key>
-				<string>no</string>
-				<key>use-proxy</key>
-				<string>yes</string>
-				<key>use-sso-pin</key>
-				<string>no</string>
 			</dict>
 		</dict>
 	</dict>
